@@ -1505,7 +1505,7 @@ def main():
                 st.info("Nenhuma imagem classificada ainda. Capture ou faça upload de uma imagem para analisar.")
 
             # Terminal de log - sem div card vazia
-            st.header("���� Log de Execução")
+            st.header("Log de Execução")
             log_container = st.container()
 
             with log_container:
