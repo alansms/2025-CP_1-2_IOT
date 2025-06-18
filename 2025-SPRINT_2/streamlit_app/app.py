@@ -1406,7 +1406,7 @@ def main():
                             with st.spinner("Analisando imagem..."):
                                 add_to_log("Classificando imagem capturada pela câmera.")
 
-                                # Classificar usando o modelo real ou simulação
+                                # Classificar usando o modelo real ou simula��ão
                                 is_original, confidence = classify_image(img_array)
 
                                 # Armazenar os resultados
