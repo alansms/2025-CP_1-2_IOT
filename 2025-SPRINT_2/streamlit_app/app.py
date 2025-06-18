@@ -570,7 +570,7 @@ def classify_image(img_array):
                         # Verificar outros scores do modelo para confirmar
                         other_max = np.max(prediction[0][1:]) if prediction.shape[1] > 1 else 0
 
-                        # Se outro score for próximo, dar preferência ao não original
+                        # Se outro score for próximo, dar preferência ao n��o original
                         if other_max > (adjusted_raw_confidence * 0.8):
                             class_idx = 1 + np.argmax(prediction[0][1:])
                             raw_confidence = prediction[0][class_idx]
